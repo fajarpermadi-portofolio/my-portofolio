@@ -72,7 +72,7 @@ export default function PortfolioWebsite() {
 
         <motion.div className="relative" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <div className="w-full h-80 md:h-96 rounded-2xl shadow-xl overflow-hidden ring-1 ring-slate-200">
-            <img src="/public/foto2.JPG" alt="hero" className="w-full h-full object-cover" />
+            <img src="/foto2.JPG" alt="hero" className="w-full h-full object-cover" />
           </div>
 
           <div className="absolute -bottom-8 left-6 bg-white rounded-xl p-4 shadow-lg w-[86%] ring-1 ring-slate-100">
