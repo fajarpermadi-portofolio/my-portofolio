@@ -124,7 +124,7 @@ export default function PortfolioWebsite() {
             <img src="/foto2.JPG" alt="hero" className="w-full h-full object-cover" />
           </div>
 
-          <div className="absolute -bottom-8 left-11 bg-white rounded-xl p-3 shadow-lg w-[78%] ring-1 ring-slate-100">
+          <div className="absolute -bottom-8 left-10 bg-white rounded-xl p-3 shadow-lg w-[78%] ring-1 ring-slate-100">
             <div className="flex items-center gap-4">
               <img src="/foto.jpg" alt="avatar" className="w-20 h-20 rounded-full object-cover"/>
               <div>
