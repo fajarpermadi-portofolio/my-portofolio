@@ -42,9 +42,9 @@ export default function PortfolioWebsite() {
         </div>
 
         <nav className="hidden md:flex gap-6 items-center text-sm text-slate-700">
-          <a href="#projects" className="hover:text-slate-900">Projects</a>
-          <a href="#about" className="hover:text-slate-900">About</a>
-          <a href="#skills" className="hover:text-slate-900">Skills</a>
+          <a href="#projects" className="hover:text-slate-900">Project</a>
+          <a href="#about" className="hover:text-slate-900">Tentang</a>
+          <a href="#skills" className="hover:text-slate-900">Kemampuan</a>
           <a href="#contact" className="px-4 py-2 rounded-md bg-gradient-to-r from-indigo-600 to-purple-500 text-white hover:bg-indigo-700">Contact</a>
         </nav>
 
@@ -142,8 +142,8 @@ export default function PortfolioWebsite() {
           <div className="mt-4 space-y-3">
             <SkillBar name="Pengetahuan Hardware" value={90} />
             <SkillBar name="Troubleshooting" value={90} />
-            <SkillBar name="Coding with AI" value={80} />
-            <SkillBar name="Minat Belajar" value={80} />
+            <SkillBar name="Programming with AI" value={97} />
+            <SkillBar name="Minat Belajar" value={85} />
           </div>
         </aside>
       </section>
