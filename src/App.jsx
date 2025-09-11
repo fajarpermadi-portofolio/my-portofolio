@@ -126,7 +126,7 @@ export default function PortfolioWebsite() {
 
           <div className="absolute -bottom-8 left-6 bg-white rounded-xl p-4 shadow-lg w-[86%] ring-1 ring-slate-100">
             <div className="flex items-center gap-4">
-              <img src="/foto.jpg" alt="avatar" className="w-12 h-12 rounded-full object-cover"/>
+              <img src="/foto.jpg" alt="avatar" className="w-15 h-15 rounded-full object-cover"/>
               <div>
                 <div className="text-sm font-medium">Bersedia untuk Bekerja</div>
                 <div className="text-xs text-slate-500">Terbuka untuk magang dan part-time.</div>
