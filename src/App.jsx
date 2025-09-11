@@ -12,21 +12,21 @@ export default function PortfolioWebsite() {
       title: "PROGRAM PARKIR QR",
       desc: "Program parkir berbasis C++ yang dapat mencetak tiket dan struk secara otomatis dan dibangun dengan framework Qt",
       tags: ["C++", "Open CV", "Qt"],
-      img: "/public/fotoparkir.jpg",
+      img: "/fotoparkir.jpg",
       link: "#",
     },
     {
       title: "WEB ABSENSI QR",
       desc: "Web absensi yang berjalan dengan memasukkan data peserta yang sudah ada di spreadsheet dan mengscan QR-Code static dengan text tertentu yang bisa disesuaikan.",
       tags: ["Apps Script", "Google Sheets"],
-      img: "/public/fotowebabsen.png",
+      img: "/fotowebabsen.png",
       link: "https://script.google.com/macros/s/AKfycbwTVjfC8BJlmm72tV6qdiCGtnCRZcnoOmg0gygbPHJJpmfbuCBfflA2aGKJFgjLYkhW/exec",
     },
     {
       title: "WEB MONITORING KINERJA",
       desc: "Web yang dibangun di Apps Script yang digunakan untuk menilai kinerja panitia yang datanya sudah dibuat di spreadsheet",
       tags: ["Apps Script", "Google Sheets"],
-      img: "/public/fotointeraksi.jpg",
+      img: "/fotointeraksi.jpg",
       link: "https://script.google.com/macros/s/AKfycbwACkE5Vu6SvVByUYg4wYu_rQODpVtgGcly5A28aTWGl9zuSuY_RxNr5TtXg1DJQRfmCg/exec",
     },
   ];
@@ -77,7 +77,7 @@ export default function PortfolioWebsite() {
 
           <div className="absolute -bottom-8 left-6 bg-white rounded-xl p-4 shadow-lg w-[86%] ring-1 ring-slate-100">
             <div className="flex items-center gap-4">
-              <img src="/public/foto.jpg" alt="avatar" className="w-12 h-12 rounded-full object-cover"/>
+              <img src="/foto.jpg" alt="avatar" className="w-12 h-12 rounded-full object-cover"/>
               <div>
                 <div className="text-sm font-medium">Bersedia untuk Bekerja</div>
                 <div className="text-xs text-slate-500">Terbuka untuk magang dan part-time.</div>
