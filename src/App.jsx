@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Github, Linkedin, ExternalLink } from "lucide-react";
+import emailjs from "emailjs-com";
 
 // Single-file React component for a modern portfolio website
 // Uses Tailwind CSS for styling (assumes Tailwind is configured in the project)
@@ -32,6 +33,30 @@ export default function PortfolioWebsite() {
       link: "https://script.google.com/macros/s/AKfycbwACkE5Vu6SvVByUYg4wYu_rQODpVtgGcly5A28aTWGl9zuSuY_RxNr5TtXg1DJQRfmCg/exec",
     },
   ];
+
+  // ✅ Handler untuk EmailJS
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_3u1or54",   // ganti dengan Service ID dari EmailJS
+        "template_nwfacyd",  // ganti dengan Template ID
+        e.target,       // otomatis ambil data form
+        "3835aoeneKLPF7dTU"    // ganti dengan Public Key dari EmailJS
+      )
+      .then(
+        () => {
+          alert("✅ Pesan berhasil terkirim!");
+        },
+        (error) => {
+          console.error("EmailJS Error:", error);
+          alert("❌ Gagal mengirim pesan.");
+        }
+      );
+
+    e.target.reset();
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-100 text-slate-900">
@@ -208,7 +233,6 @@ export default function PortfolioWebsite() {
         </div>
       </div>
     </div>
-
     {/* Form Kontak */}
     <form
       className="space-y-4"
@@ -246,7 +270,41 @@ export default function PortfolioWebsite() {
         Kirim pesan
       </button>
     </form>
-
+          {/* Form Kontak */}
+          <form className="space-y-4" onSubmit={handleSubmit}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <input
+                required
+                placeholder="Nama"
+                name="nama" // ✅ penting untuk EmailJS
+                className="p-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-indigo-200"
+              />
+              <input
+                required
+                placeholder="Email"
+                type="email"
+                name="email" // ✅ penting untuk EmailJS
+                className="p-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-indigo-200"
+              />
+            </div>
+            <input
+              placeholder="Subjek"
+              name="subjek" // ✅ penting untuk EmailJS
+              className="p-3 rounded-md border w-full"
+            />
+            <textarea
+              placeholder="Pesan singkat"
+              name="pesan" // ✅ penting untuk EmailJS
+              rows={5}
+              className="p-3 rounded-md border w-full"
+            ></textarea>
+            <button
+              type="submit"
+              className="px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700"
+            >
+              Kirim pesan
+            </button>
+          </form>
   </div>
 </section>
 
