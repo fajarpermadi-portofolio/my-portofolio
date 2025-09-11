@@ -139,7 +139,7 @@ export default function PortfolioWebsite() {
       {/* Projects */}
       <section id="projects" className="max-w-6xl mx-auto p-6 mt-16">
         <h3 className="text-2xl font-semibold">Project</h3>
-        <p className="text-slate-600 mt-2">Pilihan hasil project yang telah saya buat.</p>
+        <p className="text-slate-600 mt-2">Hasil project yang telah saya buat (memang belum layak industri). Saya sedang belajar agar kemampuan saya siap membuat project kelas industri.</p>
 
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((p, i) => (
