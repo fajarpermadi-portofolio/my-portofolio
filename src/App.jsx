@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Github, Linkedin, ExternalLink } from "lucide-react";
 
@@ -41,17 +42,39 @@ export default function PortfolioWebsite() {
           </div>
         </div>
 
-        <nav className="hidden md:flex gap-6 items-center text-sm text-slate-700">
+      {/* Menu untuk desktop */}
+      <nav className="hidden md:flex gap-6 items-center text-sm text-slate-700">
+        <a href="#projects" className="hover:text-slate-900">Project</a>
+        <a href="#about" className="hover:text-slate-900">Tentang</a>
+        <a href="#skills" className="hover:text-slate-900">Kemampuan</a>
+        <a href="#contact" className="px-4 py-2 rounded-md bg-gradient-to-r from-indigo-600 to-purple-500 text-white hover:bg-indigo-700">
+          Contact
+        </a>
+      </nav>
+
+      {/* Tombol menu untuk mobile */}
+      <div className="md:hidden">
+        <button
+          aria-label="open menu"
+          className="p-2 rounded-md border"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          Menu
+        </button>
+      </div>
+
+      {/* Menu dropdown untuk mobile */}
+      {isOpen && (
+        <nav className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col gap-4 p-4 md:hidden">
           <a href="#projects" className="hover:text-slate-900">Project</a>
           <a href="#about" className="hover:text-slate-900">Tentang</a>
           <a href="#skills" className="hover:text-slate-900">Kemampuan</a>
-          <a href="#contact" className="px-4 py-2 rounded-md bg-gradient-to-r from-indigo-600 to-purple-500 text-white hover:bg-indigo-700">Contact</a>
+          <a href="#contact" className="px-4 py-2 rounded-md bg-gradient-to-r from-indigo-600 to-purple-500 text-white hover:bg-indigo-700">
+            Contact
+          </a>
         </nav>
-
-        <div className="md:hidden">
-          <button aria-label="open menu" className="p-2 rounded-md border">Menu</button>
-        </div>
-      </header>
+      )}
+    </header>
 
       {/* Hero */}
       <section className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-6">
