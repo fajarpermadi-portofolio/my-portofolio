@@ -233,43 +233,6 @@ export default function PortfolioWebsite() {
         </div>
       </div>
     </div>
-    {/* Form Kontak */}
-    <form
-      className="space-y-4"
-      onSubmit={(e) => {
-        e.preventDefault();
-        alert("Form submitted! Replace submit handler with real endpoint.");
-      }}
-    >
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <input
-          required
-          placeholder="Nama"
-          className="p-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-indigo-200"
-        />
-        <input
-          required
-          placeholder="Email"
-          type="email"
-          className="p-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-indigo-200"
-        />
-      </div>
-      <input
-        placeholder="Subjek"
-        className="p-3 rounded-md border w-full"
-      />
-      <textarea
-        placeholder="Pesan singkat"
-        rows={5}
-        className="p-3 rounded-md border w-full"
-      ></textarea>
-      <button
-        type="submit"
-        className="px-4 py-2 rounded-lg bg-indigo-600 text-white"
-      >
-        Kirim pesan
-      </button>
-    </form>
           {/* Form Kontak */}
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
