@@ -8,6 +8,7 @@ import { Mail, Github, Linkedin, ExternalLink } from "lucide-react";
 // Imports used: framer-motion, lucide-react. Replace images/text with your own.
 
 export default function PortfolioWebsite() {
+  const [isOpen, setIsOpen] = useState(false);
   const projects = [
     {
       title: "PROGRAM PARKIR QR",
@@ -48,7 +49,7 @@ export default function PortfolioWebsite() {
         <a href="#about" className="hover:text-slate-900">Tentang</a>
         <a href="#skills" className="hover:text-slate-900">Kemampuan</a>
         <a href="#contact" className="px-4 py-2 rounded-md bg-gradient-to-r from-indigo-600 to-purple-500 text-white hover:bg-indigo-700">
-          Contact
+          Kontak
         </a>
       </nav>
 
@@ -242,7 +243,7 @@ export default function PortfolioWebsite() {
         type="submit"
         className="px-4 py-2 rounded-lg bg-indigo-600 text-white"
       >
-        Send message
+        Kirim pesan
       </button>
     </form>
 
