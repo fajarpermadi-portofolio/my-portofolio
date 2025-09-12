@@ -13,7 +13,7 @@ export default function PortfolioWebsite() {
   const projects = [
     {
       title: "PROGRAM PARKIR QR",
-      desc: "Program parkir berbasis C++ yang dapat mencetak tiket dan struk secara otomatis dan dibangun dengan framework Qt",
+      desc: "Program parkir berbasis C++ yang dibangun dengan framework Qt. Bejalan dengan memasukkan nomor plat lalu mencetak tiket secara otomatis. Untuk keluar hanya perlu mengscan QR yang ada di tiket dan akan mencetak struk secara otomatis.",
       tags: ["C++", "Open CV", "Qt Frameworks"],
       img: "/fotoparkir.jpg",
       link: "#",
