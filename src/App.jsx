@@ -235,9 +235,6 @@ export default function PortfolioWebsite() {
       Keingintahuan / Curiousity
       </span>
       <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
-      Confident
-      </span>
-      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
       Public Speaking
       </span>
     </div>
