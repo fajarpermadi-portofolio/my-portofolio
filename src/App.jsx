@@ -14,14 +14,14 @@ export default function PortfolioWebsite() {
     {
       title: "PROGRAM PARKIR QR",
       desc: "Program parkir berbasis C++ yang dapat mencetak tiket dan struk secara otomatis dan dibangun dengan framework Qt",
-      tags: ["C++", "Open CV", "Qt"],
+      tags: ["C++", "Open CV", "Qt Frameworks"],
       img: "/fotoparkir.jpg",
       link: "#",
     },
     {
       title: "WEB ABSENSI QR",
       desc: "Web absensi yang berjalan dengan memasukkan data peserta yang sudah ada di spreadsheet dan mengscan QR-Code static dengan text tertentu yang bisa disesuaikan.",
-      tags: ["Apps Script", "Google Sheets"],
+      tags: ["Apps Script", "Google Sheets", "QR Scanner"],
       img: "/fotowebabsen.png",
       link: "https://script.google.com/macros/s/AKfycbwTVjfC8BJlmm72tV6qdiCGtnCRZcnoOmg0gygbPHJJpmfbuCBfflA2aGKJFgjLYkhW/exec",
     },
