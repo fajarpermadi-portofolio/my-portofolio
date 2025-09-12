@@ -206,7 +206,7 @@ export default function PortfolioWebsite() {
     <SkillBar name="Pengetahuan Hardware" value={90} />
     <SkillBar name="Troubleshooting" value={90} />
     <SkillBar name="Programming with AI" value={97} />
-    <SkillBar name="Minat Belajar" value={85} />
+    <SkillBar name="Minat Belajar / Keingintahuan" value={95} />
   </div>
 
   {/* Tambahan kemampuan visual */}
@@ -230,9 +230,6 @@ export default function PortfolioWebsite() {
       </span>
       <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
       Critical Thinking
-      </span>
-      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
-      Keingintahuan / Curiousity
       </span>
       <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
       Public Speaking
