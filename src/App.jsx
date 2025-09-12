@@ -190,7 +190,7 @@ export default function PortfolioWebsite() {
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium">Pengalaman</h5>
-              <p className="text-xs text-slate-500 mt-1">Magang - 5 Bulan di Trans Computer, IT Staff SMK AL-IKHLAS TAROKAN.</p>
+              <p className="text-xs text-slate-500 mt-1">Magang - 5 Bulan di Trans Computer, Tim IT Labkom SMK AL-IKHLAS TAROKAN.</p>
               <p className="text-xs text-slate-500 mt-1">Organisasi - Ketua Divisi Internal Hima Prodi Sistem Informasi Universitas Nusantara PGRI Kediri.</p>
             </div>
             <div>
