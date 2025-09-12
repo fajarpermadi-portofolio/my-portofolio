@@ -39,6 +39,13 @@ export default function PortfolioWebsite() {
       img: "/fotoprogram.jpg",
       link: "#",
     },
+    {
+      title: "WEB PORTOFOLIO",
+      desc: "Web portofolio yang dibangung dengan React + Vite. Berjalan di Vercel dan Git sehingga membuatnya hemat biaya.",
+      tags: ["Git", "React", "Vite"],
+      img: "/fotoportofolio.png",
+      link: "https://fajarpermadi.vercel.app/",
+    },
   ];
 
   // ✅ Handler untuk EmailJS
