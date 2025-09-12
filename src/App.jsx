@@ -171,7 +171,7 @@ export default function PortfolioWebsite() {
       <section id="about" className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-6 mt-12">
         <div className="md:col-span-2 bg-white rounded-2xl p-6 shadow-sm ring-1 ring-slate-100">
           <h3 className="text-xl font-semibold">Tentang Saya</h3>
-          <p className="text-slate-600 mt-3">Saya adalah mahasiswa semester awal dengan latar belakang pendidikan Teknik Komputer dan Jaringan, dan saya memiliki ketertarikan pada dunia teknologi. Saya sudah terbiasa mengoperasikan komputer sejak umur saya masih 6 tahun. Dengan ini membuat saya dapat menyelesaikan masalah yang berhubungan dengan komputer dengan cepat (troubleshooting) bahkan masalah tersebut belum pernah saya alami, karena saya tidak takut mencoba dan tidak takut salah</p>
+          <p className="text-slate-600 mt-3">Saya adalah mahasiswa semester awal dengan latar belakang pendidikan Teknik Komputer dan Jaringan, dan saya memiliki ketertarikan pada dunia teknologi. Saya sudah terbiasa mengoperasikan komputer sejak umur saya masih 6 tahun. Ini membuat saya dapat menyelesaikan masalah yang berhubungan dengan komputer dengan cepat (troubleshooting) bahkan masalah tersebut belum pernah saya alami, karena saya terbiasa mencari tau semuanya sendiri dan mempelajarinya. Selain itu, saya tidak pernah takut mencoba dan tidak takut salah.</p>
 
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
