@@ -201,14 +201,48 @@ export default function PortfolioWebsite() {
         </div>
 
         <aside id="skills" className="bg-white rounded-2xl p-6 shadow-sm ring-1 ring-slate-100">
-          <h4 className="text-lg font-semibold">Kemampuan</h4>
-          <div className="mt-4 space-y-3">
-            <SkillBar name="Pengetahuan Hardware" value={90} />
-            <SkillBar name="Troubleshooting" value={90} />
-            <SkillBar name="Programming with AI" value={97} />
-            <SkillBar name="Minat Belajar" value={85} />
-          </div>
-        </aside>
+  <h4 className="text-lg font-semibold">Kemampuan</h4>
+  <div className="mt-4 space-y-3">
+    <SkillBar name="Pengetahuan Hardware" value={90} />
+    <SkillBar name="Troubleshooting" value={90} />
+    <SkillBar name="Programming with AI" value={97} />
+    <SkillBar name="Minat Belajar" value={85} />
+  </div>
+
+  {/* Tambahan kemampuan visual */}
+  <div className="mt-3">
+    <h5 className="text-sm font-medium text-slate-600">Kemampuan Lain</h5>
+    <div className="flex flex-wrap gap-2 mt-2">
+    <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+    Communicative
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Leadership
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Teamwork / Kolaborasi
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Problem Solving
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Adaptive
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Critical Thinking
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Keingintahuan / Curiousity
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Confident
+      </span>
+      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
+      Public Speaking
+      </span>
+    </div>
+  </div>
+</aside>
       </section>
 
 {/* Contact */}
