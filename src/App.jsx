@@ -153,7 +153,7 @@ export default function PortfolioWebsite() {
       {/* Projects */}
       <section id="projects" className="max-w-6xl mx-auto p-6 mt-16">
         <h3 className="text-2xl font-semibold">Project</h3>
-        <p className="text-slate-600 mt-2">Hasil project yang telah saya buat (belum layak industri). Saya sedang belajar agar kemampuan saya siap membuat project kelas industri.</p>
+        <p className="text-slate-600 mt-2">Hasil project yang telah saya buat (belum layak industri). Saya sedang belajar agar kemampuan saya siap membuat project berstandart industri.</p>
 
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((p, i) => (
@@ -203,10 +203,10 @@ export default function PortfolioWebsite() {
         <aside id="skills" className="bg-white rounded-2xl p-6 shadow-sm ring-1 ring-slate-100">
   <h4 className="text-lg font-semibold">Kemampuan</h4>
   <div className="mt-4 space-y-3">
-    <SkillBar name="Pengetahuan Hardware" value={90} />
-    <SkillBar name="Problem Solving / Troubleshooting" value={90} />
+    <SkillBar name="Pengetahuan Hardware" value={95} />
+    <SkillBar name="Problem Solving & Troubleshooting" value={90} />
     <SkillBar name="Programming with AI" value={97} />
-    <SkillBar name="Minat Belajar / Keingintahuan" value={95} />
+    <SkillBar name="Minat Belajar & Keingintahuan" value={95} />
   </div>
 
   {/* Tambahan kemampuan visual */}
@@ -244,7 +244,7 @@ export default function PortfolioWebsite() {
     <div>
       <h3 className="text-xl font-semibold">Ayo buat project bersama</h3>
       <p className="text-slate-600 mt-2">
-        Saya terbuka untuk part-time dan magang. Atau pekerjaan apapun yang bisa saya lakukan sambil kuliah. Kontak saya dan akan saya balas segera.
+        Saya terbuka untuk part-time dan magang. Atau pekerjaan apapun yang bisa saya lakukan sambil kuliah. Hubungi saya dan akan saya balas segera.
       </p>
 
       <div className="mt-6 space-y-3">
