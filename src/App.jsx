@@ -32,6 +32,13 @@ export default function PortfolioWebsite() {
       img: "/fotointeraksi.jpg",
       link: "https://script.google.com/macros/s/AKfycbwACkE5Vu6SvVByUYg4wYu_rQODpVtgGcly5A28aTWGl9zuSuY_RxNr5TtXg1DJQRfmCg/exec",
     },
+    {
+      title: "PROGRAM ABSENSI",
+      desc: "Program desktop untuk absensi berbasis python. Bekerja dengan membuat QR dan langsung mendistribusikan secara otomatis ke nomor whatsapp yang terdaftar. Untuk absensinya hanya perlu mengscan QR yang sudah di distribusikan secara otomatis.",
+      tags: ["Python", "Desktop App", "Spreadsheets API"],
+      img: "/fotoprogram.jpg",
+      link: "#",
+    },
   ];
 
   // ✅ Handler untuk EmailJS
