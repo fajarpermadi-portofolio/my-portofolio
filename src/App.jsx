@@ -204,7 +204,7 @@ export default function PortfolioWebsite() {
   <h4 className="text-lg font-semibold">Kemampuan</h4>
   <div className="mt-4 space-y-3">
     <SkillBar name="Pengetahuan Hardware" value={90} />
-    <SkillBar name="Troubleshooting" value={90} />
+    <SkillBar name="Problem Solving / Troubleshooting" value={90} />
     <SkillBar name="Programming with AI" value={97} />
     <SkillBar name="Minat Belajar / Keingintahuan" value={95} />
   </div>
@@ -220,10 +220,7 @@ export default function PortfolioWebsite() {
       Leadership
       </span>
       <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
-      Teamwork / Kolaborasi
-      </span>
-      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
-      Problem Solving
+      Teamwork
       </span>
       <span className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs font-medium shadow-sm">
       Adaptive
