@@ -187,7 +187,7 @@ export default function PortfolioWebsite() {
           <h3 className="text-xl font-semibold">Tentang Saya</h3>
           <p className="text-slate-600 mt-3">Saya adalah mahasiswa semester awal dengan latar belakang pendidikan Teknik Komputer dan Jaringan, dan saya memiliki ketertarikan pada dunia teknologi. Saya sudah terbiasa mengoperasikan komputer sejak umur saya masih 6 tahun. Ini membuat saya dapat menyelesaikan masalah yang berhubungan dengan komputer dengan cepat (troubleshooting) bahkan masalah tersebut belum pernah saya alami, karena saya terbiasa mencari tau semuanya sendiri dan mempelajarinya. Selain itu, saya tidak pernah takut mencoba dan tidak takut salah.</p>
 
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium">Pengalaman</h5>
               <p className="text-xs text-slate-500 mt-1">Magang - 5 Bulan di Trans Computer, Teknisi Labkom SMK AL-IKHLAS TAROKAN.</p>
