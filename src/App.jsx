@@ -200,10 +200,10 @@ export default function PortfolioWebsite() {
     </p>
 
     {/* Grid untuk pengalaman & pendidikan */}
-    <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
       <div>
         <h5 className="text-sm font-medium">Pengalaman</h5>
-        <ul className="text-xs text-slate-500 mt-2 space-y-1">
+        <ul className="text-xs text-slate-500 mt-1 space-y-1">
           <li>
             Magang - 5 Bulan di Trans Computer, Teknisi Labkom SMK AL-IKHLAS
             TAROKAN.
@@ -217,7 +217,7 @@ export default function PortfolioWebsite() {
 
       <div>
         <h5 className="text-sm font-medium">Pendidikan</h5>
-        <ul className="text-xs text-slate-500 mt-2 space-y-1">
+        <ul className="text-xs text-slate-500 mt-1 space-y-1">
           <li>
             Program Studi Sistem Informasi (ongoing) — Universitas Nusantara
             PGRI Kediri
@@ -229,7 +229,7 @@ export default function PortfolioWebsite() {
     {/* Bagian riwayat pekerjaan */}
     <div className="mt-2">
       <h5 className="text-sm font-medium">Riwayat Pekerjaan</h5>
-      <ul className="text-xs text-slate-500 mt-2 space-y-1">
+      <ul className="text-xs text-slate-500 mt-1 space-y-1">
         <li>Waiter — Angkringan Adi Jaya (2023-2025)</li>
       </ul>
     </div>
