@@ -227,11 +227,10 @@ export default function PortfolioWebsite() {
     </div>
 
     {/* Bagian riwayat pekerjaan */}
-    <div className="mt-6">
+    <div className="mt-2">
       <h5 className="text-sm font-medium">Riwayat Pekerjaan</h5>
       <ul className="text-xs text-slate-500 mt-2 space-y-1">
-        <li>Freelance IT Support — membantu instalasi & troubleshooting PC.</li>
-        <li>Part-time Web Developer — membuat landing page untuk UMKM lokal.</li>
+        <li>Waiter — Angkringan Adi Jaya (2023-2025)</li>
       </ul>
     </div>
   </div>
