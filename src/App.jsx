@@ -188,7 +188,7 @@ export default function PortfolioWebsite() {
 >
   <div className="md:col-span-2 bg-white rounded-2xl p-6 shadow-sm ring-1 ring-slate-100">
     <h3 className="text-xl font-semibold">Tentang Saya</h3>
-    <p className="text-slate-600 mt-3">
+    <p className="text-slate-600 mt-2">
       Saya adalah mahasiswa semester awal dengan latar belakang pendidikan
       Teknik Komputer dan Jaringan, dan saya memiliki ketertarikan pada dunia
       teknologi. Saya sudah terbiasa mengoperasikan komputer sejak umur saya
