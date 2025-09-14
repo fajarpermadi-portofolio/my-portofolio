@@ -181,24 +181,60 @@ export default function PortfolioWebsite() {
         </div>
       </section>
 
-      {/* About + Skills */}
-      <section id="about" className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-6 mt-12">
-        <div className="md:col-span-2 bg-white rounded-2xl p-6 shadow-sm ring-1 ring-slate-100">
-          <h3 className="text-xl font-semibold">Tentang Saya</h3>
-          <p className="text-slate-600 mt-3">Saya adalah mahasiswa semester awal dengan latar belakang pendidikan Teknik Komputer dan Jaringan, dan saya memiliki ketertarikan pada dunia teknologi. Saya sudah terbiasa mengoperasikan komputer sejak umur saya masih 6 tahun. Ini membuat saya dapat menyelesaikan masalah yang berhubungan dengan komputer dengan cepat (troubleshooting) bahkan masalah tersebut belum pernah saya alami, karena saya terbiasa mencari tau semuanya sendiri dan mempelajarinya. Selain itu, saya tidak pernah takut mencoba dan tidak takut salah.</p>
+{/* About + Skills */}
+<section
+  id="about"
+  className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-6 mt-8"
+>
+  <div className="md:col-span-2 bg-white rounded-2xl p-6 shadow-sm ring-1 ring-slate-100">
+    <h3 className="text-xl font-semibold">Tentang Saya</h3>
+    <p className="text-slate-600 mt-3">
+      Saya adalah mahasiswa semester awal dengan latar belakang pendidikan
+      Teknik Komputer dan Jaringan, dan saya memiliki ketertarikan pada dunia
+      teknologi. Saya sudah terbiasa mengoperasikan komputer sejak umur saya
+      masih 6 tahun. Ini membuat saya dapat menyelesaikan masalah yang
+      berhubungan dengan komputer dengan cepat (troubleshooting) bahkan masalah
+      tersebut belum pernah saya alami, karena saya terbiasa mencari tau
+      semuanya sendiri dan mempelajarinya. Selain itu, saya tidak pernah takut
+      mencoba dan tidak takut salah.
+    </p>
 
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <h5 className="text-sm font-medium">Pengalaman</h5>
-              <p className="text-xs text-slate-500 mt-1">Magang - 5 Bulan di Trans Computer, Teknisi Labkom SMK AL-IKHLAS TAROKAN.</p>
-              <p className="text-xs text-slate-500 mt-1">Organisasi - Ketua Divisi Internal Hima Prodi Sistem Informasi Universitas Nusantara PGRI Kediri.</p>
-            </div>
-            <div>
-              <h5 className="text-sm font-medium">Pendidikan</h5>
-              <p className="text-xs text-slate-500 mt-1">Program Studi Sistem Informasi (ongoing) — Universitas Nusantara PGRI Kediri</p>
-            </div>
-          </div>
-        </div>
+    {/* Grid untuk pengalaman & pendidikan */}
+    <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div>
+        <h5 className="text-sm font-medium">Pengalaman</h5>
+        <ul className="text-xs text-slate-500 mt-2 space-y-1">
+          <li>
+            Magang - 5 Bulan di Trans Computer, Teknisi Labkom SMK AL-IKHLAS
+            TAROKAN.
+          </li>
+          <li>
+            Organisasi - Ketua Divisi Internal Hima Prodi Sistem Informasi
+            Universitas Nusantara PGRI Kediri.
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 className="text-sm font-medium">Pendidikan</h5>
+        <ul className="text-xs text-slate-500 mt-2 space-y-1">
+          <li>
+            Program Studi Sistem Informasi (ongoing) — Universitas Nusantara
+            PGRI Kediri
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    {/* Bagian riwayat pekerjaan */}
+    <div className="mt-6">
+      <h5 className="text-sm font-medium">Riwayat Pekerjaan</h5>
+      <ul className="text-xs text-slate-500 mt-2 space-y-1">
+        <li>Freelance IT Support — membantu instalasi & troubleshooting PC.</li>
+        <li>Part-time Web Developer — membuat landing page untuk UMKM lokal.</li>
+      </ul>
+    </div>
+  </div>
 
         <aside id="skills" className="bg-white rounded-2xl p-6 shadow-sm ring-1 ring-slate-100">
   <h4 className="text-lg font-semibold">Kemampuan</h4>
